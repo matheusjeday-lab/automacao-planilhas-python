@@ -2,6 +2,11 @@
 
 **Status:** ✅ Projeto concluído e testado
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-data%20processing-blue)
+![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-green)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-charts-orange)
+
 Sistema desenvolvido em Python para automatizar o processamento de planilhas de vendas.
 
 O programa lê automaticamente os arquivos recebidos, valida os dados, identifica erros e duplicidades, consolida as informações em um histórico e gera relatórios atualizados.
