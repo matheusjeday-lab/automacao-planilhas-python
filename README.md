@@ -202,17 +202,30 @@ O sistema também remove espaços extras dos nomes das colunas para evitar erros
 
 ## Como executar
 
-Instale as dependências:
+
+### 1. Instalar as dependências
+
+No terminal, dentro da pasta do projeto, execute:
 
 ```bash
-pip install pandas openpyxl matplotlib
+pip install -r requirements.txt
 ```
 
-Coloque as novas planilhas na pasta:
+### 2. Adicionar as planilhas
+
+Coloque os arquivos `.xlsx` que deseja processar na pasta:
 
 ```text
 entrada/
 ```
+
+As planilhas devem conter as colunas:
+
+```text
+Data | Cliente | Produto | Quantidade | Valor
+```
+
+### 3. Executar a automação
 
 Execute:
 
@@ -220,12 +233,19 @@ Execute:
 python programa/automacao.py
 ```
 
+### 4. Resultados
+
 Após a execução:
 
-* os relatórios serão atualizados na pasta `saida/`;
-* o histórico será atualizado;
+* os relatórios serão gerados ou atualizados na pasta `saida/`;
+* o histórico de vendas será atualizado;
+* duplicidades serão identificadas e ignoradas;
+* erros encontrados serão registrados;
 * a execução será registrada no log;
 * os arquivos processados serão movidos para `processados/`.
+
+O terminal também apresenta um resumo da execução, incluindo arquivos processados, arquivos rejeitados, linhas novas, duplicidades ignoradas e total das vendas.
+
 
 ## Tratamento de erros
 
