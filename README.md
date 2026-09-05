@@ -1,5 +1,7 @@
 # Automação de Planilhas em Python
 
+**Status:** ✅ Projeto concluído e testado
+
 Sistema desenvolvido em Python para automatizar o processamento de planilhas de vendas.
 
 O programa lê automaticamente os arquivos recebidos, valida os dados, identifica erros e duplicidades, consolida as informações em um histórico e gera relatórios atualizados.
