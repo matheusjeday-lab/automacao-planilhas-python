@@ -133,6 +133,25 @@ Total das vendas
 
 Os relatórios gerados permitem acompanhar tanto os resultados das vendas quanto os problemas encontrados durante o processamento.
 
+## Principais funcionalidades
+
+* Leitura automática de arquivos Excel (`.xlsx`)
+* Consolidação de dados de múltiplas planilhas
+* Validação de colunas e dados
+* Identificação de campos vazios
+* Validação de datas, quantidades e valores
+* Identificação e tratamento de registros duplicados
+* Continuidade do processamento mesmo quando existem arquivos ou registros inválidos
+* Atualização automática do histórico de vendas
+* Geração de relatórios em Excel
+* Dashboard com indicadores e gráficos
+* Resumo de vendas por mês, produto e cliente
+* Identificação do produto mais comprado por cliente
+* Relatório detalhado de erros encontrados
+* Controle individual dos arquivos processados
+* Registro das execuções em arquivo de log (`CSV`)
+* Organização automática dos arquivos já processados
+
 ## Relatórios gerados
 
 ### Dashboard
@@ -201,7 +220,6 @@ O sistema também remove espaços extras dos nomes das colunas para evitar erros
 * CSV
 
 ## Como executar
-
 
 ### 1. Instalar as dependências
 
