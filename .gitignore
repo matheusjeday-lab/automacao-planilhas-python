@@ -1,0 +1,21 @@
+# Ambiente Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Arquivos temporários
+~$*
+*.tmp
+*.temp
+
+# Arquivos gerados pelo sistema
+saida/
+processados/
+
+# Arquivos de teste de entrada
+entrada/*.xlsx
+
+# Configurações do VS Code
+.vscode/
