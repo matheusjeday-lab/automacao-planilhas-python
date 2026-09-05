@@ -73,6 +73,58 @@ AutomacaoPlanilhas/
 │
 └── README.md
 ```
+## Demonstração
+
+O sistema foi testado com diferentes cenários de processamento, incluindo:
+
+* Processamento de múltiplos arquivos
+* Inclusão de novas vendas
+* Registros duplicados
+* Arquivos com colunas ausentes
+* Datas inválidas
+* Quantidades inválidas
+* Valores inválidos
+* Arquivos vazios
+* Arquivos válidos contendo registros inválidos
+
+Durante os testes, o sistema conseguiu continuar processando os arquivos válidos mesmo quando encontrou arquivos ou registros com problemas.
+
+### Exemplo de fluxo
+
+```text
+entrada/
+   ↓
+Leitura das planilhas
+   ↓
+Validação
+   ↓
+Erros e duplicidades identificados
+   ↓
+Histórico atualizado
+   ↓
+Relatórios atualizados
+   ↓
+Controle e log registrados
+   ↓
+processados/
+```
+
+### Resultado
+
+Ao final de cada execução, o terminal informa:
+
+```text
+Arquivos encontrados
+Arquivos processados
+Arquivos rejeitados
+Linhas lidas
+Linhas novas
+Duplicidades ignoradas
+Linhas consolidadas
+Total das vendas
+```
+
+Os relatórios gerados permitem acompanhar tanto os resultados das vendas quanto os problemas encontrados durante o processamento.
 
 ## Relatórios gerados
 
